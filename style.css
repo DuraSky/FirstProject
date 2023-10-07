@@ -1,0 +1,33 @@
+body {
+    font-family: "roboto";
+    height: 100vh;
+    display: flex;
+    flex-direction:column; 
+    margin: 0;
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    background-color: lightcoral;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    justify-content: center;
+    
+}
