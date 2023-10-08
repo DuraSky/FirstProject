@@ -88,7 +88,6 @@ footer {
 /* Main Content */
 
 main {
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -120,4 +119,13 @@ main h2 {
     text-align: center;
 }
 
+
+/* Quote Content */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    height: 20%;
+    align-items: center;
+}
 
