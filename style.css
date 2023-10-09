@@ -14,7 +14,7 @@ header {
     background-color: #1F2937;
     flex-direction: column;
     padding: 0 100px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     flex-grow: 0;
      /* height: 25%;  */
    
@@ -24,7 +24,7 @@ nav {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .undernav {
@@ -37,6 +37,7 @@ nav {
 .topcontent{
     display: flex;   
 }
+
 
 img.mntn{
     padding-top: 60px;
@@ -92,6 +93,10 @@ main {
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-between;
+    
+}
+
+.heroandboxes {
     padding: 0 100px;
 }
 
@@ -125,7 +130,61 @@ main h2 {
 .quote {
     background-color: #E5E7EB;
     display: flex;
-    height: 20%;
+    height: 30%;
+    padding: 0 100px;
+    flex-shrink: 0;
+    /* justify-content: space-between; */
+    
+}
+
+ .quote p {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    align-self: center;
+
+} 
+
+.quote h4 {
+    display: flex;
+    align-items:flex-end;
+    font-style: italic;
+    padding: 30px;
+    justify-content: center;
+
+}  
+
+/* SignUp Section */
+
+.signup {
+    background-color: #a0b483;
+    display: flex;
+    margin: auto auto;  
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    width: 800px;
+    padding: 0 100px;
+    color: white;
+    justify-content: space-between;
     align-items: center;
 }
+
+.buttondown {
+   display:inline-block; 
+   padding:0.3em 1.2em;
+   border-radius:2em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:'Roboto',sans-serif;
+   background-color: #3882F6;
+   color:white;
+   border-color: white;
+   height: 40px;
+}
+
+
+
+
 
